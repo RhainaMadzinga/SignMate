@@ -357,11 +357,3 @@ No licence is currently provided for reuse of the project source code.
 Reference BSL videos were obtained from [UCL BSL SignBank](https://bslsignbank.ucl.ac.uk/). MediaPipe was used during development to produce landmark sequences from reference videos. The original videos and the derived landmark / animation JSON are **not distributed in this public repository**, pending clarification of redistribution permissions. Thanks to the original dataset creators and signers. This acknowledgement does **not** imply that UCL endorses this project.
 
 The mapping file and Unity gloss manifests are retained to document the architecture, but they reference landmark and sequence files that are intentionally absent. Consequently, end-to-end avatar playback and dataset-backed translation cannot be reproduced from this public repository alone. The screenshots illustrate the university prototype rather than a ready-to-run public release.
-
-### Before publishing
-
-- Confirm the permission of all project contributors to publish their contributed source code and assets.
-- Confirm provenance and redistribution rights for the included 3D avatar, Unity FBX/animation assets, images, and any other third-party assets.
-- Review screenshots for personal information and check local repository commit history for secrets or restricted data.
-- Create a **new empty public repository**; do not copy or push the original private repository's Git history.
-- Do not publish any excluded dataset or sign sequence files unless appropriate permission is granted.
