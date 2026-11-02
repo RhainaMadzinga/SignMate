@@ -1,0 +1,1 @@
+Derived MediaPipe landmark JSON files are intentionally excluded from this public portfolio copy. The source data was obtained from UCL BSL SignBank; redistribution permission for derived data has not been established. The local translation pipeline requires appropriately licensed landmark data.

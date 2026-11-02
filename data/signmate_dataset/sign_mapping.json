@@ -1,0 +1,206 @@
+{
+  "afternoon": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/afternoon/afternoon_S05_001.json",
+    "animation_id": "afternoon_animation"
+  },
+  "bad": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/bad/bad_S05_001.json",
+    "animation_id": "bad_animation"
+  },
+  "before": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/before/before_S01_001.json",
+    "animation_id": "before_animation"
+  },
+  "come": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/come/come_S05_001.json",
+    "animation_id": "come_animation"
+  },
+  "drink": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/drink/drink_S05_001.json",
+    "animation_id": "drink_animation"
+  },
+  "eat": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/eat/eat_S05_001.json",
+    "animation_id": "eat_animation"
+  },
+  "fantastic": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/fantastic/fantastic_S05_001.json",
+    "animation_id": "fantastic_animation"
+  },
+  "finish_complete": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/finish_complete/finish_complete_S05_001.json",
+    "animation_id": "finish_complete_animation"
+  },
+  "finish_stop": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/finish_stop/finish_stop_S05_001.json",
+    "animation_id": "finish_stop_animation"
+  },
+  "future": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/future/future_S06_001.json",
+    "animation_id": "future_animation"
+  },
+  "go": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/go/go_S01_001.json",
+    "animation_id": "go_animation"
+  },
+  "good": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/good/good_S04_001.json",
+    "animation_id": "good_animation"
+  },
+  "hello": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/hello/hello_S01_001.json",
+    "animation_id": "hello_animation"
+  },
+  "help": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/help/help_S01_001.json",
+    "animation_id": "help_animation"
+  },
+  "home": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/home/home_S01_001.json",
+    "animation_id": "home_animation"
+  },
+  "i": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/i/i_S01_001.json",
+    "animation_id": "i_animation"
+  },
+  "last_week": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/last_week/last_week_S01_001.json",
+    "animation_id": "last_week_animation"
+  },
+  "later": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/later/later_S01_001.json",
+    "animation_id": "later_animation"
+  },
+  "left_depart": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/left_depart/left_depart_S01_001.json",
+    "animation_id": "left_depart_animation"
+  },
+  "left_direction": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/left_direction/left_direction_S01_001.json",
+    "animation_id": "left_direction_animation"
+  },
+  "left_side": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/left_side/left_side_S06_001.json",
+    "animation_id": "left_side_animation"
+  },
+  "more": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/more/more_S01_001.json",
+    "animation_id": "more_animation"
+  },
+  "morning": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/morning/morning_S01_001.json",
+    "animation_id": "morning_animation"
+  },
+  "next_week": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/next_week/next_week_S01_001.json",
+    "animation_id": "next_week_animation"
+  },
+  "night": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/night/night_S04_001.json",
+    "animation_id": "night_animation"
+  },
+  "no": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/no/no_S01_001.json",
+    "animation_id": "no_animation"
+  },
+  "now": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/now/now_S06_001.json",
+    "animation_id": "now_animation"
+  },
+  "past": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/past/past_S01_001.json",
+    "animation_id": "past_animation"
+  },
+  "please": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/please/please_S01_001.json",
+    "animation_id": "please_animation"
+  },
+  "present": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/present/present_S06_001.json",
+    "animation_id": "present_animation"
+  },
+  "right_correct": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/right_correct/right_correct_S04_002.json",
+    "animation_id": "right_correct_animation"
+  },
+  "right_direction": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/right_direction/right_direction_S01_001.json",
+    "animation_id": "right_direction_animation"
+  },
+  "right_side": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/right_side/right_side_S04_001.json",
+    "animation_id": "right_side_animation"
+  },
+  "soon": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/soon/soon_S03_001.json",
+    "animation_id": "soon_animation"
+  },
+  "sorry": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/sorry/sorry_S03_001.json",
+    "animation_id": "sorry_animation"
+  },
+  "sorry_oops": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/sorry_oops/sorry_oops_S04_003.json",
+    "animation_id": "sorry_oops_animation"
+  },
+  "terrible": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/terrible/terrible_S01_001.json",
+    "animation_id": "terrible_animation"
+  },
+  "thank_you": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/thank_you/thank_you_S03_001.json",
+    "animation_id": "thank_you_animation"
+  },
+  "today": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/today/today_S06_001.json",
+    "animation_id": "today_animation"
+  },
+  "tomorrow": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/tomorrow/tomorrow_S03_001.json",
+    "animation_id": "tomorrow_animation"
+  },
+  "university": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/university/university_S04-001.json",
+    "animation_id": "university_animation"
+  },
+  "want": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/want/want_S03_001.json",
+    "animation_id": "want_animation"
+  },
+  "water": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/water/water_S02_001.json",
+    "animation_id": "water_animation"
+  },
+  "we": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/we/we_S01_001.json",
+    "animation_id": "we_animation"
+  },
+  "well": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/well/well_S03_001.json",
+    "animation_id": "well_animation"
+  },
+  "what": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/what/what_S03_001.json",
+    "animation_id": "what_animation"
+  },
+  "where": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/where/where_S03_001.json",
+    "animation_id": "where_animation"
+  },
+  "why": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/why/why_S03_001.json",
+    "animation_id": "why_animation"
+  },
+  "yes": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/yes/yes_S02_001.json",
+    "animation_id": "yes_animation"
+  },
+  "yesterday": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/yesterday/yesterday_S03_001.json",
+    "animation_id": "yesterday_animation"
+  },
+  "you": {
+    "dataset_file": "data/signmate_dataset/processed/landmarks/you/you_S01_002.json",
+    "animation_id": "you_animation"
+  }
+}

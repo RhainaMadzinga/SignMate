@@ -1,0 +1,188 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignMate Avatar Pipeline Diagram</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+            color: #222;
+            background: #ffffff;
+        }
+
+
+    h1 {
+        color: #0b3d66;
+        border-bottom: 3px solid #0b3d66;
+        padding-bottom: 10px;
+    }
+
+    .pipeline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        margin-top: 30px;
+    }
+
+    .box {
+        border: 2px solid #0b3d66;
+        background: #eaf5ff;
+        border-radius: 12px;
+        padding: 16px;
+        width: 480px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .box small {
+        display: block;
+        font-weight: normal;
+        margin-top: 8px;
+        line-height: 1.4;
+    }
+
+    .arrow {
+        font-size: 26px;
+        color: #0b3d66;
+        font-weight: bold;
+    }
+
+    .side-row {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .small-box {
+        border: 2px solid #0b3d66;
+        background: #f8fbff;
+        border-radius: 12px;
+        padding: 14px;
+        width: 260px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .small-box small {
+        display: block;
+        font-weight: normal;
+        margin-top: 8px;
+        line-height: 1.4;
+    }
+
+    .note {
+        margin-top: 35px;
+        background: #f8f8f8;
+        border-left: 5px solid #38B6FF;
+        padding: 15px;
+        line-height: 1.6;
+    }
+
+    ul {
+        line-height: 1.6;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+<h1>SignMate Avatar Pipeline Diagram</h1>
+
+<p>
+    This document shows the planned and tested avatar pipeline for SignMate. The avatar work aimed to connect BSL sign data, processed landmarks, JSON files and Unity/manual animation into a visual signing output.
+</p>
+
+<div class="pipeline">
+
+```
+<div class="box">
+    Raw Sign Data
+    <small>Original or collected BSL sign videos organised by gloss label.</small>
+</div>
+
+<div class="arrow">↓</div>
+
+<div class="box">
+    MediaPipe / Backend Processing
+    <small>Extracts pose, hand and face landmarks from sign videos.</small>
+</div>
+
+<div class="arrow">↓</div>
+
+<div class="side-row">
+    <div class="small-box">
+        Processed Landmark Files
+        <small>CSV, JSON or NPY files containing structured landmark data.</small>
+    </div>
+
+    <div class="small-box">
+        Fixed-Length Sequences
+        <small>Frame sequences prepared for recognition and prediction work.</small>
+    </div>
+</div>
+
+<div class="arrow">↓</div>
+
+<div class="box">
+    JSON Sign / Movement Files
+    <small>Stores gloss labels, frame data, pose landmarks, hand landmarks and optional prediction output.</small>
+</div>
+
+<div class="arrow">↓</div>
+
+<div class="side-row">
+    <div class="small-box">
+        Unity JSON Playback
+        <small>Loads sign data or manifest mappings for playback/testing.</small>
+    </div>
+
+    <div class="small-box">
+        Skeleton Video Output
+        <small>Visualises processed pose/skeleton movement as output videos.</small>
+    </div>
+
+    <div class="small-box">
+        Manual Animation
+        <small>Selected signs manually animated in Unity for clearer avatar playback.</small>
+    </div>
+</div>
+
+<div class="arrow">↓</div>
+
+<div class="box">
+    Avatar Output
+    <small>Unity/avatar scene used to test sign playback, pose movement, handshape and animation sequences.</small>
+</div>
+```
+
+</div>
+
+<h2>Connection to the iOS App</h2>
+
+<ul>
+    <li>The app produces a gloss sequence through TranslationService.</li>
+    <li>AvatarService prepares animation file names from the translation result.</li>
+    <li>The gloss names are intended to match JSON files, Unity manifest entries or animation names.</li>
+    <li>Example: thank you → thank_you → thank_you.json → thank_you avatar animation.</li>
+</ul>
+
+<h2>Important Limitation</h2>
+
+<p>
+    The final live connection between the iOS app and the completed Unity avatar playback was not fully completed by the deadline. However, the project produced evidence of the intended pipeline through app mapping, JSON files, skeleton outputs, Unity avatar setup and manual animation work.
+</p>
+
+<div class="note">
+    The avatar pipeline shows that the project was designed as a modular system. Even though full live integration was incomplete, the dataset, JSON, Unity and app mapping evidence demonstrate how the components were intended to connect.
+</div>
+
+</body>
+</html>

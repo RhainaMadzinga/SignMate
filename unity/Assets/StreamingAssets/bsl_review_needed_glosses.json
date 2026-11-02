@@ -1,0 +1,107 @@
+﻿{
+    "reason":  "Excluded from playable manifest pending human review because hand motion required substantial inference.",
+    "glosses":  [
+                    {
+                        "name":  "after",
+                        "detected_active_hand_ratio":  0.690476,
+                        "imputed_frames":  53,
+                        "synthesized_frames":  0
+                    },
+                    {
+                        "name":  "bright",
+                        "detected_active_hand_ratio":  0.613636,
+                        "imputed_frames":  38,
+                        "synthesized_frames":  0
+                    },
+                    {
+                        "name":  "comfortable",
+                        "detected_active_hand_ratio":  0.533333,
+                        "imputed_frames":  21,
+                        "synthesized_frames":  45
+                    },
+                    {
+                        "name":  "he",
+                        "detected_active_hand_ratio":  0.310345,
+                        "imputed_frames":  94,
+                        "synthesized_frames":  0
+                    },
+                    {
+                        "name":  "her",
+                        "detected_active_hand_ratio":  0.561404,
+                        "imputed_frames":  25,
+                        "synthesized_frames":  57
+                    },
+                    {
+                        "name":  "his",
+                        "detected_active_hand_ratio":  0.351351,
+                        "imputed_frames":  121,
+                        "synthesized_frames":  0
+                    },
+                    {
+                        "name":  "later",
+                        "detected_active_hand_ratio":  0.690476,
+                        "imputed_frames":  53,
+                        "synthesized_frames":  0
+                    },
+                    {
+                        "name":  "low",
+                        "detected_active_hand_ratio":  0.581395,
+                        "imputed_frames":  18,
+                        "synthesized_frames":  43
+                    },
+                    {
+                        "name":  "me",
+                        "detected_active_hand_ratio":  0.777778,
+                        "imputed_frames":  40,
+                        "synthesized_frames":  0
+                    },
+                    {
+                        "name":  "off",
+                        "detected_active_hand_ratio":  0.585366,
+                        "imputed_frames":  17,
+                        "synthesized_frames":  41
+                    },
+                    {
+                        "name":  "on",
+                        "detected_active_hand_ratio":  0.763158,
+                        "imputed_frames":  24,
+                        "synthesized_frames":  0
+                    },
+                    {
+                        "name":  "our",
+                        "detected_active_hand_ratio":  0.75,
+                        "imputed_frames":  12,
+                        "synthesized_frames":  48
+                    },
+                    {
+                        "name":  "room",
+                        "detected_active_hand_ratio":  0.686275,
+                        "imputed_frames":  32,
+                        "synthesized_frames":  0
+                    },
+                    {
+                        "name":  "tomorrow",
+                        "detected_active_hand_ratio":  0.595238,
+                        "imputed_frames":  17,
+                        "synthesized_frames":  42
+                    },
+                    {
+                        "name":  "want",
+                        "detected_active_hand_ratio":  0.631579,
+                        "imputed_frames":  51,
+                        "synthesized_frames":  0
+                    },
+                    {
+                        "name":  "went",
+                        "detected_active_hand_ratio":  0.75,
+                        "imputed_frames":  44,
+                        "synthesized_frames":  0
+                    },
+                    {
+                        "name":  "you",
+                        "detected_active_hand_ratio":  0.636364,
+                        "imputed_frames":  74,
+                        "synthesized_frames":  0
+                    }
+                ]
+}

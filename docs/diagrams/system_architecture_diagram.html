@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignMate System Architecture Diagram</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+            color: #222;
+            background: #ffffff;
+        }
+
+        h1 {
+            color: #0b3d66;
+            border-bottom: 3px solid #0b3d66;
+            padding-bottom: 10px;
+        }
+
+        .diagram {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .row {
+            display: flex;
+            gap: 20px;
+            align-items: stretch;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            border: 2px solid #0b3d66;
+            background: #eaf5ff;
+            border-radius: 12px;
+            padding: 18px;
+            width: 260px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .box small {
+            display: block;
+            font-weight: normal;
+            margin-top: 8px;
+            line-height: 1.4;
+        }
+
+        .arrow {
+            text-align: center;
+            font-size: 28px;
+            color: #0b3d66;
+            font-weight: bold;
+        }
+
+        .note {
+            margin-top: 35px;
+            background: #f8f8f8;
+            border-left: 5px solid #38B6FF;
+            padding: 15px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>SignMate System Architecture Diagram</h1>
+
+<p>
+    This diagram shows the overall architecture of the SignMate prototype. The system was designed as a modular pipeline connecting the iOS app, translation logic, dataset/backend processing and Unity/avatar output.
+</p>
+
+<div class="diagram">
+
+    <div class="row">
+        <div class="box">
+            User
+            <small>Enters English text into the SignMate app.</small>
+        </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <div class="row">
+        <div class="box">
+            iOS App Interface
+            <small>SwiftUI screens including login, text input, processing, result, saved translations and settings.</small>
+        </div>
+
+        <div class="box">
+            Firebase Authentication
+            <small>Supports login, account creation, password reset and sign-out state.</small>
+        </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <div class="row">
+        <div class="box">
+            TranslationService
+            <small>Processes English input using supported signs, phrase mapping and context-recognition rules.</small>
+        </div>
+
+        <div class="box">
+            TranslationResult
+            <small>Stores original text, gloss sequence, subtitle text, animation IDs and optional avatar URL.</small>
+        </div>
+
+        <div class="box">
+            AvatarService
+            <small>Prepares gloss sequence and animation files for future avatar playback.</small>
+        </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <div class="row">
+        <div class="box">
+            Dataset and Backend Processing
+            <small>Raw sign files, processed landmarks, fixed-length sequences, LSTM recognition and prediction output.</small>
+        </div>
+
+        <div class="box">
+            JSON Sign Files
+            <small>Structured sign data for prediction, movement export or avatar playback.</small>
+        </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <div class="row">
+        <div class="box">
+            Unity / Avatar Pipeline
+            <small>Unity avatar scene, manual animations, JSON playback, skeleton outputs and avatar testing.</small>
+        </div>
+    </div>
+
+</div>
+
+<div class="note">
+    The final system was developed as a modular prototype. The app, dataset, backend and avatar components were connected through shared gloss names and documented integration points, but the final live app-to-avatar connection was not fully completed by the deadline.
+</div>
+
+</body>
+</html>

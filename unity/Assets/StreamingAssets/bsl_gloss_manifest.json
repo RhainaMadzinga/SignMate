@@ -1,0 +1,317 @@
+﻿{
+    "default_fps":  30,
+    "glosses":  [
+                    {
+                        "name":  "again",
+                        "file":  "sign_sequences/again.json",
+                        "frame_count":  169,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "bad",
+                        "file":  "sign_sequences/bad.json",
+                        "frame_count":  133,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "be",
+                        "file":  "sign_sequences/be.json",
+                        "frame_count":  56,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "before",
+                        "file":  "sign_sequences/before.json",
+                        "frame_count":  83,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "can",
+                        "file":  "sign_sequences/can.json",
+                        "frame_count":  82,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "cant",
+                        "file":  "sign_sequences/cant.json",
+                        "frame_count":  92,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "check",
+                        "file":  "sign_sequences/check.json",
+                        "frame_count":  291,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "close",
+                        "file":  "sign_sequences/close.json",
+                        "frame_count":  58,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "cold",
+                        "file":  "sign_sequences/cold.json",
+                        "frame_count":  55,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "come",
+                        "file":  "sign_sequences/come.json",
+                        "frame_count":  76,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "dark",
+                        "file":  "sign_sequences/dark.json",
+                        "frame_count":  99,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "deaf",
+                        "file":  "sign_sequences/deaf.json",
+                        "frame_count":  79,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "dont_want",
+                        "file":  "sign_sequences/dont_want.json",
+                        "frame_count":  45,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "eat",
+                        "file":  "sign_sequences/eat.json",
+                        "frame_count":  103,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "error",
+                        "file":  "sign_sequences/error.json",
+                        "frame_count":  68,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "friend",
+                        "file":  "sign_sequences/friend.json",
+                        "frame_count":  109,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "go",
+                        "file":  "sign_sequences/go.json",
+                        "frame_count":  40,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "good",
+                        "file":  "sign_sequences/good.json",
+                        "frame_count":  84,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "have",
+                        "file":  "sign_sequences/have.json",
+                        "frame_count":  88,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "hello",
+                        "file":  "sign_sequences/hello.json",
+                        "frame_count":  52,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "help",
+                        "file":  "sign_sequences/help.json",
+                        "frame_count":  184,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "high",
+                        "file":  "sign_sequences/high.json",
+                        "frame_count":  76,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "home",
+                        "file":  "sign_sequences/home.json",
+                        "frame_count":  201,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "hot",
+                        "file":  "sign_sequences/hot.json",
+                        "frame_count":  112,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "how",
+                        "file":  "sign_sequences/how.json",
+                        "frame_count":  79,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "i",
+                        "file":  "sign_sequences/i.json",
+                        "frame_count":  70,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "learn",
+                        "file":  "sign_sequences/learn.json",
+                        "frame_count":  88,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "like",
+                        "file":  "sign_sequences/like.json",
+                        "frame_count":  59,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "my",
+                        "file":  "sign_sequences/my.json",
+                        "frame_count":  76,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "name",
+                        "file":  "sign_sequences/name.json",
+                        "frame_count":  67,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "need",
+                        "file":  "sign_sequences/need.json",
+                        "frame_count":  52,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "no",
+                        "file":  "sign_sequences/no.json",
+                        "frame_count":  84,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "now",
+                        "file":  "sign_sequences/now.json",
+                        "frame_count":  103,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "open",
+                        "file":  "sign_sequences/open.json",
+                        "frame_count":  48,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "please",
+                        "file":  "sign_sequences/please.json",
+                        "frame_count":  209,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "school",
+                        "file":  "sign_sequences/school.json",
+                        "frame_count":  62,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "send",
+                        "file":  "sign_sequences/send.json",
+                        "frame_count":  77,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "sign",
+                        "file":  "sign_sequences/sign.json",
+                        "frame_count":  79,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "stop",
+                        "file":  "sign_sequences/stop.json",
+                        "frame_count":  61,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "student",
+                        "file":  "sign_sequences/student.json",
+                        "frame_count":  74,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "teacher",
+                        "file":  "sign_sequences/teacher.json",
+                        "frame_count":  82,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "thank_you",
+                        "file":  "sign_sequences/thank_you.json",
+                        "frame_count":  78,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "today",
+                        "file":  "sign_sequences/today.json",
+                        "frame_count":  73,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "tomorrow",
+                        "file":  "sign_sequences/tomorrow.json",
+                        "frame_count":  42,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "tomorrow_i_go_home",
+                        "file":  "sign_sequences/tomorrow_i_go_home.json",
+                        "frame_count":  353,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "what",
+                        "file":  "sign_sequences/what.json",
+                        "frame_count":  86,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "when",
+                        "file":  "sign_sequences/when.json",
+                        "frame_count":  92,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "where",
+                        "file":  "sign_sequences/where.json",
+                        "frame_count":  86,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "who",
+                        "file":  "sign_sequences/who.json",
+                        "frame_count":  77,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "why",
+                        "file":  "sign_sequences/why.json",
+                        "frame_count":  148,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "yes",
+                        "file":  "sign_sequences/yes.json",
+                        "frame_count":  57,
+                        "fps":  30
+                    },
+                    {
+                        "name":  "yesterday",
+                        "file":  "sign_sequences/yesterday.json",
+                        "frame_count":  181,
+                        "fps":  30
+                    }
+                ]
+}

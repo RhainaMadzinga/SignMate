@@ -1,0 +1,1 @@
+The original sign sequence JSON files were withheld from this public version pending confirmation of permission to redistribute derived landmark data. The Unity animation pipeline requires replacement data licensed for redistribution or local private data.
